@@ -1,0 +1,54 @@
+.red {
+    background-color: red;
+    height: 8rem;
+
+}
+
+.blue {
+    background-color: blue;
+    height: 8rem;
+}
+
+.green {
+    background-color: green;
+    height: 17rem;
+    grid-row: span 2;
+}
+
+.yellow {
+    background-color: yellow;
+    height: 8rem;
+}
+
+.orange {
+    background-color: orange;
+    height: 8rem;
+}
+
+.grid-display {
+    width: 55%;
+    margin: 5rem auto;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.red, .yellow, .orange {
+    grid-column: span 2;
+}
+
+
+a button {
+    background-color: blue;
+    color: white;
+    padding: 1rem 3rem;
+    border-radius: 5rem;
+    border: none;
+}
+
+a button:hover {
+    background-color: transparent;
+    color: blue;
+    border: 1px solid blue;
+
+}

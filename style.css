@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;500;600;700;800;900&display=swap');
+
+.container {
+    background-color: white;
+    display: flex;
+}
+
+h2 {
+    font-family: 'Big Shoulders Display', cursive;
+    color: white;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.sedans {
+    background-color: #e28525;
+    margin-left: auto;
+}
+
+.suvs {
+    background-color: #016972;
+}
+
+.luxury {
+    background-color: #00403f;
+    margin-right: auto;
+}
+
+.sedans, .suvs, .luxury {
+    width: 11rem;
+    height: 20rem;
+    padding: 2rem;
+   margin-top: 5rem;
+   
+
+}
+
+button {
+    margin-top: 3rem;
+    padding: 0.5rem 1rem;
+    border-radius: 5rem;
+    background-color: white;
+    border: none;
+}
+
+button:hover {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
+
+.sedan-btn {
+    color: #e28525;
+}
+
+.suvs-btn {
+    color: #016972;
+}
+
+.luxury-btn {
+    color: #00403f;
+}
+
+a button {
+    background-color: blue;
+    color: white;
+    padding: 1rem 3rem;
+    border-radius: 5rem;
+    border: none;
+}
+
+a button:hover {
+    background-color: transparent;
+    color: blue;
+    border: 1px solid blue;
+
+}
+
+@media screen and (max-width:500px) {
+    .container {
+        display: inline;
+    }
+
+    .sedans {
+        margin-left: 0;
+        margin-top: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .luxury {
+        margin-right: 0;
+    }
+
+    .suvs, .luxury {
+       margin-top: 0;
+       margin-left: auto;
+       margin-right: auto;
+       
+    
+    }
+}
